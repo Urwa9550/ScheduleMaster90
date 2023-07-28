@@ -1,0 +1,7 @@
+#Fri Jul 28 18:57:47 PKT 2023
+base.1=/Users/devbeans/Documents/React-Native/Practice/DubaiSchedule/Assig4/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/Users/devbeans/Documents/React-Native/Practice/DubaiSchedule/Assig4/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

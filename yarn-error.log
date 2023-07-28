@@ -1,0 +1,77 @@
+Arguments: 
+  /usr/local/Cellar/node/20.5.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/devbeans/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/devbeans/Library/Android/sdk/platform-tools:/Users/devbeans/Library/Android/sdk/tools:/Users/devbeans/Library/Android/sdk/tools/bin:/Users/devbeans/Library/Android/sdk/emulator:/Users/devbeans/.rvm/bin:/Users/devbeans/Library/Android/sdk/platform-tools:/Users/devbeans/Library/Android/sdk/tools:/Users/devbeans/Library/Android/sdk/tools/bin:/Users/devbeans/Library/Android/sdk/emulator
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+
+npm manifest: 
+  {
+    "name": "app",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "android:dev": "react-native run-android --variant=developmentdebug",
+      "android:dev-release": "react-native run-android --variant=developmentrelease",
+      "android:prod": "react-native run-android --variant=productiondebug",
+      "android:prod-release": "react-native run-android --variant=productionrelease",
+      "bundle-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+      "ios": "react-native run-ios",
+      "ios:dev": "react-native run-ios --scheme 'TelecareDev' --simulator 'iPhone 13'",
+      "ios:prod": "react-native run-ios --scheme 'TestAppProd'",
+      "bundle-ios": "react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios",
+      "start": "react-native start",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "@react-native-picker/picker": "^2.4.10",
+      "@react-navigation/native-stack": "^6.9.12",
+      "@react-native-masked-view/masked-view": "^0.2.9",
+      "@react-navigation/native": "^6.0.16",
+      "@react-navigation/stack": "^6.3.7",
+      "@reduxjs/toolkit": "^1.9.1",
+      "axios": "^1.4.0",
+      "html-entities": "^2.4.0",
+      "react": "18.1.0",
+      "react-native": "0.70.6",
+      "react-native-gesture-handler": "^2.8.0",
+      "react-native-safe-area-context": "^4.4.1",
+      "react-native-screens": "^3.18.2",
+      "react-native-svg": "^13.6.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9",
+      "@babel/runtime": "^7.12.5",
+      "@react-native-community/eslint-config": "^2.0.0",
+      "@shopify/flipper-plugin-react-native-performance": "^1.0.1",
+      "babel-jest": "^26.6.3",
+      "eslint": "^7.32.0",
+      "jest": "^26.6.3",
+      "metro-react-native-babel-preset": "0.72.3",
+      "react-native-flipper-performance-plugin": "^0.4.0",
+      "react-test-renderer": "18.1.0"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
